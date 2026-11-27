@@ -196,3 +196,12 @@ details p:last-child { margin-bottom: 14px; }
 .dots button[aria-current="true"] { background: var(--blue); }
 .slider:not(.js) .slider-nav { display: none; }
 @media print { .slider-nav { display: none; } .slide + .slide { display: none; } }
+
+/* Neu in dieser Version / Änderungen */
+section.news { padding: 0 0 48px; }
+.callout.new { border-left-color: var(--blue); }
+section.release { padding: 0; margin-top: 2.4em; }
+.release:first-of-type { margin-top: 1.2em; }
+.release h2 { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 .4em; }
+.release h2 .date { font-size: .95rem; font-weight: 500; color: var(--muted); }
+.release h3 { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 1.4em 0 .4em; }
